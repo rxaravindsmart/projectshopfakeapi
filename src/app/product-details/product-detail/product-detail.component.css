@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+.container{
+  border: none;
+}
+.img-title{
+  font-family: 'Poppins',sans-serif;
+  color: #2f759c;
+  font-weight: 600;
+}
+.li-item{
+  font-family: 'Popins',sans-serif;
+  font-weight: 400;
+}
+.card-price{
+  font-family: 'Popins',sans-serif;
+  font-weight: 600;
+  font-size: 26px;
+}
+.card{
+  border: none;
+}
+.item-wrapper{
+ font-size: 15px;
+ background-color: #d8f0f2;
+ border-radius: 25px;
+}
+.list-group-item{
+  border: none;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+#incons{
+  color: blue;
+}
+image{
+  width: 30px;
+  height: 30px;
+}
+.list-group-item{
+  text-transform: capitalize;
+  font-size: 18px;
+}
+.icon-wrapper{
+  color: grey;
+
+}
+.icon-wrapper:hover{
+  color: red;
+}
+
+.card-title{
+  font-family: 'Popins',sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+input[type='number']{
+  width: 40px;
+  font-size: 16px;
+  border: none;
+  border-radius: 50px;
+}
+.input-wrapper{
+  background-color: #f5fcfa;
+  border-radius: 25px;
+  font-size: 16px;
+  display: flex;
+  font-family: 'Popins',sans-serif;
+  align-content: flex-end;
+}
+.input-text{
+  font-family: 'Popins',sans-serif;
+}
+.btn-primary{
+  font-family: 'Popins',sans-serif;
+}
+.input-wrapper::before{
+  content: "";
+  background-color:#ededed;
+  position: absolute;
+  width: 0.5px;
+  height: 20px;
+  top: 10px;
+  left: 50%;
+  display: block;
+}
+.desc-item{
+  font-family: 'Popins',sans-serif;
+  font-weight: 500;
+}
+.item-wrapper-item
+{
+  font-family: 'Popins',sans-serif;
+  font-weight: 500;
+}
+.star.li{
+  display: inline;
+}
+li.order-wrapper{
+  line-height: 1.2;
+}
+li.product-wrapper{
+  line-height: 10px;
+  font-family: 'Popins',sans-serif;
+}
+.wrapper-nav{
+padding-left: 50px;
+padding-right: 50px;
+}
+.content-wrapper{
+  font-family: 'Popins',sans-serif;
+}
+.quantity-wrapper{
+  background-color:#ebf7f7;
+  padding: 10px;
+  border-radius: 25px;
+}
+input,textarea{
+  background-color: #ebf7f7;
+}
+.img-container{
+  background-color: #f5f5f5;
+  border-radius: 2%;
+}
+@media screen and (max-width: 720px) {
+
+  .img-container:hover{
+    border: 1px solid black;
+  }
+  .img-fluid{
+    max-width: 250px;
+  }
+  .img-container{
+  max-width: 50px;
+  /* padding: 10px; */
+  /* padding-left: 20px; */
+  margin-left: 5px;
+  }
+
+}
+@media screen and (min-width: 720px) {
+  .img-container:hover{
+    border: 1px solid black;
+  }
+  .img-fluid{
+    max-width: 300px;
+  }
+  .img-container{
+  max-width: 50px;
+  }
+}
+.row{
+  margin: 0;
+}
